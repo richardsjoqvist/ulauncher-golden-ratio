@@ -1,0 +1,20 @@
+{
+	"manifest_version": "2",
+	"api_version": "1",
+	"name": "GoldenRatio",
+	"description": "Get the golden ratio of a number.",
+	"developer_name": "Richard Sjöqvist",
+	"icon": "images/icon.png",
+	"options": {
+		"query_debounce": 0.1
+	},
+	"preferences": [
+		{
+			"id": "goldenratio_kw",
+			"type": "keyword",
+			"name": "Golden ratio",
+			"description": "Get the golden ratio of a number.",
+			"default_value": "gr"
+		}
+	]
+}
